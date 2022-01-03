@@ -169,3 +169,8 @@ var firstName = myName. slice (0, myName. indexOf (" "));
 var name = firstName.concat(" ", lastName);//добавляет одно к другому
 
 let ask = (question, yes, no) => (confirm(question)) ? yes() : no()*/
+let user = {};
+
+user.likes = true;
+
+console.log(user);
