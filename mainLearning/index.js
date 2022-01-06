@@ -168,6 +168,7 @@ var firstName = myName. slice (0, myName. indexOf (" "));
 
 var name = firstName.concat(" ", lastName);//добавляет одно к другому
 
+<<<<<<< HEAD
 let ask = (question, yes, no) => (confirm(question)) ? yes() : no()git commit -m "added a few folders"*/
 // в user находится ссылка на объект
 let user = {
