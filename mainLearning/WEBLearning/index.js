@@ -167,9 +167,6 @@ var firstName = myName. slice (0, 3)
 var firstName = myName. slice (0, myName. indexOf (" "));
 
 var name = firstName.concat(" ", lastName);//добавляет одно к другому
-
-let ask = (question, yes, no) => (confirm(question)) ? yes() : no()*/
-
 // до вызова функции
 let menu = {
   width: 200,
@@ -184,10 +181,23 @@ menu = {
   width: 400,
   height: 600,
   title: "My menu"
-};  */
-function multiplyNumeric(obj){
-  for(let key in obj){
-    obj[key] = (typeof obj[key] == 'number') ? obj[key] * 2 : obj[key];
+};
+
+ЗАПИСЬ ЧИСЕЛ РАЗНЫХ РАЗРЯДОВ
+16-чная: 0xff
+10-чная: 255
+8-чная:  0o377
+двоичная:11111111
+
+также можно записывать например 1 миллиард не 1000000000, а 1e9
+*/
+function fibonacci_gen(n) {
+  let fibonacci_list = new Array();
+  let index = 0;
+  while (index < n) {
+    fibonacci_list[index] = (index < 2) ? index : fibonacci_list[index-2] + fibonacci_list[index--];
+    console.log(fibonacci_list);
+    index++;
   }
 }
-console.log(menu)
+fibonacci_gen(10)
