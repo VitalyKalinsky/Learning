@@ -1,5 +1,5 @@
-
-
+for i in range(5):
+  print(i-2)
 def fibonacci_gen(n):
   fibonacci_list = []
   for i in range(n):
@@ -8,6 +8,3 @@ def fibonacci_gen(n):
     else:
       fibonacci_list.append(fibonacci_list[i-2] + fibonacci_list[i-1])
   return fibonacci_list
-n = 10
-for num in fibonacci_gen(n):
-  print(num)
