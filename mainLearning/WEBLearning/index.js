@@ -174,6 +174,7 @@ let menu = {
   title: "My menu",
 }
 
+<<<<<<< HEAD:mainLearning/WEBLearning/index.js
 multiplyNumeric(menu)
 
 /* после вызова функции
@@ -201,3 +202,14 @@ function fibonacci_gen(n) {
   }
 }
 fibonacci_gen(10)
+=======
+<<<<<<< HEAD
+let ask = (question, yes, no) => (confirm(question)) ? yes() : no()git commit -m "added a few folders"*/
+// в user находится ссылка на объект
+let user = {
+  name: "John"
+};
+
+let admin = user;
+console.log(admin);
+>>>>>>> 867977ea586f9f7b3b8eefddd3faca0a892508d4:mainLearning/index.js
