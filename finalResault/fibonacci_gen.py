@@ -1,5 +1,3 @@
-for i in range(5):
-  print(i-2)
 def fibonacci_gen(n):
   fibonacci_list = []
   for i in range(n):
